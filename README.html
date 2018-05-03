@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>For Developers &mdash; In-Person Event Handbook 0.1.2 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="profile" href="http://joeyh.name/rfc/rel-vcs/" title="VCS link profile" />
+    <link rel="vcs-git" href="https://github.com/openhatch/in-person-event-handbook.git" title="Handbook git repository" />
+    <link rel="vcs-svn" href="https://github.com/openhatch/in-person-event-handbook" title="Handbook SVN repository" />
+    <link rel="vcs-browse" href="https://github.com/openhatch/in-person-event-handbook" title="Handbook GitHub page" />
+
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">In-Person Event Handbook</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.1</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a href="index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ></ul>
+</li>
+              
+                <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">For Developers</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li>
+<div id="sourcelink">
+  <a href="_sources/README.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <p>This is a guide for open source projects looking to prepare for an event such as a workshop, hackathon, or sprint.</p>
+<p>To contribute, you can submit a pull request, file an issue in the issue tracker, or email the main author.</p>
+<p>This document is licensed <a class="reference external" href="ahref=&quot;http://creativecommons.org/licenses/by/3.0/us/">CC BY</a>.</p>
+<div class="section" id="for-developers">
+<h1>For Developers<a class="headerlink" href="#for-developers" title="Permalink to this headline">¶</a></h1>
+<p>To install the project, fork this repository and clone it to your computer.</p>
+<p>If you don&#8217;t have it installed, you may need to get pypi-install by running (on Debian and its derivatives):</p>
+<div class="highlight-python"><pre>sudo apt-get install python-stdeb</pre>
+</div>
+<p>Then, get the dependencies for the project by typing the following two commands (on Debian and its derivatives):</p>
+<div class="highlight-python"><pre>sudo apt-get install python-sphinx
+sudo pypi-install sphinx-bootstrap-theme</pre>
+</div>
+<p>You may also need to install GNU make, which is usually available on Debian via one of the following:</p>
+<div class="highlight-python"><pre>sudo apt-get install build-essential # Also installs a bunch of compilers, useful for other projects too
+sudo apt-get install make # Installs only the base utility, less useful in a broad sense</pre>
+</div>
+<p>Once you&#8217;ve installed the dependencies, you can render the project by typing:</p>
+<div class="highlight-python"><pre>make html</pre>
+</div>
+<p>You will find the rendered pages in <em>_build/html</em>.  A good place to start looking around is <em>index.html</em>.</p>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

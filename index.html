@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>The In-Person Event Handbook &mdash; In-Person Event Handbook 0.1.2 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-3.0.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="profile" href="http://joeyh.name/rfc/rel-vcs/" title="VCS link profile" />
+    <link rel="vcs-git" href="https://github.com/openhatch/in-person-event-handbook.git" title="Handbook git repository" />
+    <link rel="vcs-svn" href="https://github.com/openhatch/in-person-event-handbook" title="Handbook SVN repository" />
+    <link rel="vcs-browse" href="https://github.com/openhatch/in-person-event-handbook" title="Handbook GitHub page" />
+
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">In-Person Event Handbook</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.1</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a href="#"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ></ul>
+</li>
+              
+                <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">The In-Person Event Handbook</a><ul>
+<li><a class="reference internal" href="#getting-your-open-source-project-ready-for-new-contributors">getting your open source project ready for new contributors</a><ul>
+<li><a class="reference internal" href="#defining-goals">Defining goals</a><ul>
+<li><a class="reference internal" href="#what-is-the-overall-goal-of-your-project">What is the overall goal of your project?</a></li>
+<li><a class="reference internal" href="#what-do-you-want-to-accomplish-at-this-event">What do you want to accomplish at this event?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#project-setup">Project setup</a><ul>
+<li><a class="reference internal" href="#how-to-find-the-projects-community-maintainers">How to find the project’s community/maintainers</a></li>
+<li><a class="reference internal" href="#the-projects-structure">The project’s structure</a></li>
+<li><a class="reference internal" href="#how-to-set-up-a-local-development-environment">How to set up a local (“development”) environment</a></li>
+<li><a class="reference internal" href="#contributing-changes-and-feedback">Contributing changes and feedback</a></li>
+<li><a class="reference internal" href="#verify-your-documentation">Verify your documentation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#defining-tasks-for-attendees">Defining tasks for attendees</a><ul>
+<li><a class="reference internal" href="#create-a-system-for-tracking-tasks">Create a system for tracking tasks</a></li>
+<li><a class="reference internal" href="#preparing-tasks">Preparing tasks</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#follow-up">Follow-up</a></li>
+<li><a class="reference internal" href="#checklists">Checklists</a></li>
+<li><a class="reference internal" href="#acknowledgements">Acknowledgements</a><ul>
+<li><a class="reference internal" href="#contributors">Contributors</a></li>
+<li><a class="reference internal" href="#further-resources">Further Resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li>
+<div id="sourcelink">
+  <a href="_sources/index.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="the-in-person-event-handbook">
+<h1>The In-Person Event Handbook<a class="headerlink" href="#the-in-person-event-handbook" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="getting-your-open-source-project-ready-for-new-contributors">
+<h2>getting your open source project ready for new contributors<a class="headerlink" href="#getting-your-open-source-project-ready-for-new-contributors" title="Permalink to this headline">¶</a></h2>
+<p>It seems like every day there&#8217;s another workshop, hackathon or sprint, where open source projects are invited to work with new contributors.  At <a class="reference external" href="http://openhatch.org/">OpenHatch</a>, we&#8217;ve run plenty of these events ourselves!  We&#8217;ve found that to get the most out of an event, it&#8217;s important to plan ahead.  Explaining your goals, identifying appropriate tasks, and testing your project setup, are all vital to making good progress - and having a good time.  These changes have greatly improved our experiences, and we think they&#8217;re worth the (significant) effort.</p>
+<p>We’ve created the following guide to help open source projects get ready for events.  We’ve used our own project - the <a class="reference external" href="http://openhatch.org/">OpenHatch.org</a> web app - as an example below.  At the bottom of the page, you can find <a class="reference internal" href="#checklists">Checklists</a>.  These condense the advice given in this handbook, and can help you track your progress as you prepare your project.</p>
+<p>This handbook is <a class="reference external" href="http://creativecommons.org/licenses/by/3.0/us/">open source</a>.  Many thanks to our <a class="reference internal" href="#contributors">Contributors</a>.  (<a class="reference external" href="https://github.com/openhatch/in-person-event-handbook">You can contribute, too!</a>)</p>
+<div class="contents bs-sidenav affix local topic" id="in-this-guide">
+<p class="topic-title first">In this guide</p>
+<ul class="simple">
+<li><a class="reference internal" href="#defining-goals" id="id2">Defining goals</a><ul>
+<li><a class="reference internal" href="#what-is-the-overall-goal-of-your-project" id="id3">What is the overall goal of your project?</a></li>
+<li><a class="reference internal" href="#what-do-you-want-to-accomplish-at-this-event" id="id4">What do you want to accomplish at this event?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#project-setup" id="id5">Project setup</a><ul>
+<li><a class="reference internal" href="#how-to-find-the-projects-community-maintainers" id="id6">How to find the project’s community/maintainers</a></li>
+<li><a class="reference internal" href="#the-projects-structure" id="id7">The project’s structure</a></li>
+<li><a class="reference internal" href="#how-to-set-up-a-local-development-environment" id="id8">How to set up a local (“development”) environment</a></li>
+<li><a class="reference internal" href="#contributing-changes-and-feedback" id="id9">Contributing changes and feedback</a></li>
+<li><a class="reference internal" href="#verify-your-documentation" id="id10">Verify your documentation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#defining-tasks-for-attendees" id="id11">Defining tasks for attendees</a><ul>
+<li><a class="reference internal" href="#create-a-system-for-tracking-tasks" id="id12">Create a system for tracking tasks</a></li>
+<li><a class="reference internal" href="#preparing-tasks" id="id13">Preparing tasks</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#follow-up" id="id14">Follow-up</a></li>
+<li><a class="reference internal" href="#checklists" id="id15">Checklists</a></li>
+<li><a class="reference internal" href="#acknowledgements" id="id16">Acknowledgements</a><ul>
+<li><a class="reference internal" href="#contributors" id="id17">Contributors</a></li>
+<li><a class="reference internal" href="#further-resources" id="id18">Further Resources</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="defining-goals">
+<h3><a class="toc-backref" href="#id2">Defining goals</a><a class="headerlink" href="#defining-goals" title="Permalink to this headline">¶</a></h3>
+<p>You want to be able to state clearly your goals for the event, as this gives your group something to work towards.  You can start by asking:</p>
+<div class="section" id="what-is-the-overall-goal-of-your-project">
+<h4><a class="toc-backref" href="#id3">What is the overall goal of your project?</a><a class="headerlink" href="#what-is-the-overall-goal-of-your-project" title="Permalink to this headline">¶</a></h4>
+<p>You want a short (1 paragraph or less) answer to this question which you can use to entice potential contributors to your project.  Details are great, but at this point, you shouldn’t need to be too technical.  At many events, such as the PyCon sprints, you&#8217;ll be asked to give a short summary in front of everyone.  Why not be prepared?</p>
+<blockquote>
+<div>OpenHatch’s goal is to make the free software/open source community more welcoming to newcomers.  To do this, we provide curricula and logistical support for running “Intro to Open Source” workshops, a website with open source tools, “training missions” and a volunteer opportunity finder, and several other projects in progress.</div></blockquote>
+</div>
+<div class="section" id="what-do-you-want-to-accomplish-at-this-event">
+<h4><a class="toc-backref" href="#id4">What do you want to accomplish at this event?</a><a class="headerlink" href="#what-do-you-want-to-accomplish-at-this-event" title="Permalink to this headline">¶</a></h4>
+<p>Think about what, specifically, you’d like to get done at this event.  You can break these down by elements of your project, if you have more than one.  It should be clear how these event goals contribute to the overall goal of your project.  At the same time, these are not “tasks” - it should be necessary to break these goals down further in order to accomplish them.</p>
+<p>It’s useful to phrase these in terms of “Base” and “Stretch” goals.  Having modest base goals gives you something to celebrate at the end of the event, while adding stretch goals lets you plan for the exciting scenario of having a large and/or effective team that’s able to accomplish a ton.</p>
+<p>In general, it’s better to have too many goals than too few, but make sure you prioritize them.  When you get to the task-breakdown part of this guide, focus on doing a thorough job with each individual goal before moving on to the next one.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Make a new training mission<ul>
+<li>Base goal: Pick a skill to create a new training mission around, and design what the mission will look like.  Create a mock-up of the mission.</li>
+<li>Stretch goal: Implement the mock-up, and user test it on volunteers from the event.</li>
+</ul>
+</li>
+<li>Clean out issue tracker<ul>
+<li>Base goal:  Go through tracker and label issues by what type of “cleaning” they need.  Does a bug need to be verified?  Does a patch need to be tested?  Does the feature request need to be attached to a milestone?</li>
+<li>Stretch goal:  Use the labels as a guide to &#8220;clean&#8221; each issue.  Verify bugs, test patches, etc.</li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="project-setup">
+<h3><a class="toc-backref" href="#id5">Project setup</a><a class="headerlink" href="#project-setup" title="Permalink to this headline">¶</a></h3>
+<p>In our experience, project setup is the single biggest barrier to participation.  We’ve seen (and run!) events where participants spent most of their time just getting their development environment set up and becoming acquainted with the project.  If your goal is for newcomers to make contributions, estimate how long you think it will take them to set your project up.  Then find a friend or two who&#8217;s not familiar with your project to test and see how long it <em>really</em> takes.  You can also find someone to help you do this in <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/contributor/chat_on_irc.html">#openhatch</a>.</p>
+<p>Documenting and improving the process beforehand can save everyone a lot of time and energy.  If you know that a part of your project will inevitably be time-consuming, make sure participants know to expect that.</p>
+<p>All of the information below should be documented in a README at the top level of your source repository.  Other places to put the info include a “Want to contribute?” section of your project website, and/or you can include a link to the README in the signature of your mailing list or in the status bar of your IRC channel.</p>
+<div class="section" id="how-to-find-the-projects-community-maintainers">
+<h4><a class="toc-backref" href="#id6">How to find the project’s community/maintainers</a><a class="headerlink" href="#how-to-find-the-projects-community-maintainers" title="Permalink to this headline">¶</a></h4>
+<p>Contact information should be displayed prominently, as you may have remote contributors, or contributors who want to start before the event.  Types of contact information can include:</p>
+<ul class="simple">
+<li>A link to your mailing list.</li>
+<li>Your IRC channel name and server (including link to IRC installation guide and link to webchat version).</li>
+<li>Social media accounts such as Identica, Twitter, Facebook, if your project has them.</li>
+<li>Maintainers’ personal contact information, if you feel comfortable giving it out.</li>
+</ul>
+<p>If you have a preferred mode of contact, do specify.</p>
+<blockquote>
+<div>OpenHatch has two places for contact info, which we try to keep updated and consistent with each other.  There’s our <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/community/contact.html">contact info in the documentation</a>, primarily linked to from our source code repository, and our <a class="reference external" href="https://openhatch.org/wiki/Contact">contact info in the wiki</a>, primarily linked to from the website’s main page.</div></blockquote>
+</div>
+<div class="section" id="the-projects-structure">
+<h4><a class="toc-backref" href="#id7">The project’s structure</a><a class="headerlink" href="#the-projects-structure" title="Permalink to this headline">¶</a></h4>
+<p>Describe the basic structure of your project.  What are the biggest pieces and where are they located?  How do those pieces interact?  Then break each piece down.  You don’t need to talk about every file or subdirectory of your project, but you don’t want to assume that what a script does, or how the files in a directory interact, or what language a part of your project is in is obvious to a newcomer.  Making those assumptions turns getting access to you into the bottleneck resource for working on your project.</p>
+<p>Depending on the size and complexity of your project, this can be a pretty big undertaking.  At OpenHatch, we’re still working on getting the full structure completely documented.  We recommend doing a “top level” explanation of your project’s structure - enough detail to fill a half a page to a page.  When you have more time, you can go into more detail, starting with the areas that people commonly work on (or are likely to work on at sprints or hackathons.)  If you use other frameworks or libraries, you can save yourself some time by linking to their documentation and tutorials.</p>
+<blockquote>
+<div>A description of the top-level structure of the OpenHatch project can be found at <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/getting_started/project_overview.html">Project Overview</a>.  A description of the structure of OH-Mainline (the repository that runs our website) can be found <a class="reference external" href="https://github.com/openhatch/oh-mainline/blob/master/LAYOUT">here</a>.</div></blockquote>
+</div>
+<div class="section" id="how-to-set-up-a-local-development-environment">
+<h4><a class="toc-backref" href="#id8">How to set up a local (“development”) environment</a><a class="headerlink" href="#how-to-set-up-a-local-development-environment" title="Permalink to this headline">¶</a></h4>
+<p>In order to contribute to your project, people will usually need to set up a local version of the project where they can make and test changes.  The more detailed and clearer your installation/development guide, the better.</p>
+<p>Here are common elements of setting up a development environment you’ll want your guide to address:</p>
+<ul class="simple">
+<li>Preparing their computer<ul>
+<li>Make sure they’re familiar with their operating system’s tools, such as the terminal/command prompt.  You can do this by linking to a tutorial and asking contributors to make sure they understand it.  There are usually great tutorials already out there - OpenHatch&#8217;s command line tutorial can be found <a class="reference external" href="https://openhatch.org/wiki/Open_Source_Comes_to_Campus/Curriculum/Laptop_setup#Goal_.232:_practice_navigating_from_the_command_line">here</a>.</li>
+<li>If contributors need to set up a virtual environment, access a virtual machine, or download a specific development kit, give them instructions on how to do so.</li>
+<li>List any dependencies needed to run your project, and how to install them.  If there are good installation guides for those dependencies, link to them.</li>
+</ul>
+</li>
+<li>Downloading the source<ul>
+<li>Give detailed instructions on how to download the source of the project, including common missteps or obstacles.</li>
+<li>If there are multiple versions of the project, make clear which version they should download.</li>
+</ul>
+</li>
+<li>How to view/test changes<ul>
+<li>Give instructions on how to view and test the changes they’ve made.  This may vary depending on what they’ve changed, but do your best to cover common changes.  This can be as simple as viewing an html document in a browser, but may be more complicated.</li>
+</ul>
+</li>
+</ul>
+<p>Installation will often differ depending on the operating system of the contributor.  You will probably need to create separate instructions in various parts of your guide for Windows, Mac and Linux users.  If you only want to support development on a single operating system, make sure that is clear to users, ideally in the top-level documentation.</p>
+<blockquote>
+<div>You can see OpenHatch’s version of this information in our <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/getting_started/installation.html">Installation Guide</a>.  General instructions for testing changes can be found <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/getting_started/handling_patches.html#test-your-changes">here</a>.  Specific tasks may have additional documentation (for instance, <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/getting_started/documentation.html">documentation changes</a>.)</div></blockquote>
+</div>
+<div class="section" id="contributing-changes-and-feedback">
+<h4><a class="toc-backref" href="#id9">Contributing changes and feedback</a><a class="headerlink" href="#contributing-changes-and-feedback" title="Permalink to this headline">¶</a></h4>
+<p>How do contributors contribute their changes to the project?  Do they submit a pull request via Github?  Do they generate a patch and attach it to an issue in an issue tracker?  Make sure this information is explicitly provided.</p>
+<blockquote>
+<div>OpenHatch’s guide to submitting changes can be found <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/getting_started/handling_patches.html">here</a>.</div></blockquote>
+<p>It’s also useful for people to know how they can give feedback/report bugs to the project.  If your project doesn’t have an issue tracker, consider creating one.  On Github, all repositories come with issue trackers (though you may need to enable it by going to <em>Settings</em> and then <em>Features</em>.)  There are many other <a class="reference external" href="http://en.wikipedia.org/wiki/Comparison_of_issue_tracking_systems">issue tracking systems</a>.</p>
+<p>If your project is small, you may not want or need an issue tracking system.  That&#8217;s fine.  What&#8217;s key is that contributors know how to give you feedback.</p>
+<blockquote>
+<div>Issues with the Open Source Comes to Campus project can be reported <a class="reference external" href="https://github.com/openhatch/open-source-comes-to-campus/issues?direction=desc&amp;sort=created&amp;state=open">here</a>.
+Most other issues with OpenHatch can be reported <a class="reference external" href="http://openhatch.org/bugs/">here</a>.</div></blockquote>
+<p>Tools like issue trackers are very useful for asynchronous communication.  This may not be the best fit for an in person event.  If you want to change things up - for instance, by having attendees ping you in IRC with links to new issue URLs, so they don&#8217;t fall between the cracks - make sure to tell them that!</p>
+</div>
+<div class="section" id="verify-your-documentation">
+<h4><a class="toc-backref" href="#id10">Verify your documentation</a><a class="headerlink" href="#verify-your-documentation" title="Permalink to this headline">¶</a></h4>
+<p>Verify that this documentation is complete/effective by testing on individuals who haven’t used or contributed to your project before.  Find at least one person for each operating system to read your documentation and attempt to install, make and test changes, and contribute the changes to the project.  (These can be simple, fake changes or, if your tester is willing, actual tasks.)  Make sure your testers have similar skills/experience as the kinds of newcomers you expect to have at your event.</p>
+<p>If you&#8217;re having trouble finding people to help, try the <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/contributor/chat_on_irc.html">#openhatch IRC channel</a>.</p>
+<p>Make sure that any problems which arise during verification are added to the documentation.  Once the documentation has been verified, and a line to the top of your guide which states what was verified and when.</p>
+<blockquote>
+<div>Development environment instructions tested successfully on Ubuntu 12.04 (on 2013-10-03), Mac OS X 10.8 (on 2013-10-01) and Windows XP (in Jan 2005).
+You can see OpenHatch’s version of this <a class="reference external" href="http://openhatch.readthedocs.org/en/latest/getting_started/installation.html">here</a>.</div></blockquote>
+<p>Ideally, you should verify that installing, making and testing changes, and contributing changes all work.  If you only have time for one, we recommend verifying installation.  In our experience, that&#8217;s where the majority of problems arise.</p>
+</div>
+</div>
+<div class="section" id="defining-tasks-for-attendees">
+<h3><a class="toc-backref" href="#id11">Defining tasks for attendees</a><a class="headerlink" href="#defining-tasks-for-attendees" title="Permalink to this headline">¶</a></h3>
+<p>Let’s return to the event goals we talked about in the first section.  Each goal should be broken down into the discrete steps needed to reach it.  These steps are the tasks you give to participants.</p>
+<p>These tasks should include a “plain english” summary as well as information about where to make the changes (for instance, which files or functions to alter).  We recommend including a list of needed skills (e.g. “design skills”, “basic Python”) and tools (e.g. “Mac development environment”).  It’s also useful to include an estimate of how much time the task will take, to label some tasks as higher or lower priority, and to mark where one task is dependent on another.</p>
+<p>This may seem like a lot of work, but it should help your attendees quickly and easily find tasks that are suited for them.  Since one of the main goals of in-person events is to give attendees a positive experience, we think it&#8217;s worth it.</p>
+<div class="section" id="create-a-system-for-tracking-tasks">
+<h4><a class="toc-backref" href="#id12">Create a system for tracking tasks</a><a class="headerlink" href="#create-a-system-for-tracking-tasks" title="Permalink to this headline">¶</a></h4>
+<p>We recommend using a wiki or similar planning document to keep track of tasks.  OpenHatch has <a class="reference external" href="https://github.com/openhatch/new-mini-tasks">a task browser</a> that we use for our events - you are welcome to fork it and customize it for your project/event, although you might want to wait as we’ll be making some big improvements soon.  Something as simple as an etherpad should also be just fine.  (See <a class="reference external" href="https://etherpad.mozilla.org/task-browser-template">here</a> for a template and a service you can use.)</p>
+</div>
+<div class="section" id="preparing-tasks">
+<h4><a class="toc-backref" href="#id13">Preparing tasks</a><a class="headerlink" href="#preparing-tasks" title="Permalink to this headline">¶</a></h4>
+<p>To figure out how many tasks to prepare, we recommend using the length of the event and the number of expected participants to predict how many person-hours will be spent working on your project.  You can then use the time estimates you made for each task to see where you stand.  We suggest finding 30% more than you think you&#8217;ll need, as it&#8217;s better to have too much to do than too little.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Base goal:  Go through tracker and label issues by what type of “cleaning” they need.  Does a bug need to be verified?  Does a patch need to be tested?  Does the feature request need to be attached to a milestone?<ul>
+<li>Task 1:  Label issues<ul>
+<li>Skills/tools needed:  Moderate English language skills, familiarity with concepts of verification, testing, milestones.</li>
+<li>Estimated time:  ~20 minutes per issue</li>
+<li>Get started:  Familiarize yourself with the issue tracker and how it displays information.  (See this documentation.)  Request administrative access so you can add labels to the tracker.</li>
+<li>For each issue:  Read the thread for each issue and identify where in the process of addressing the issue the community is.  If there is an unverified bug, add the label &#8220;Unverified&#8221;.  If there is an untested patch, add the label &#8220;Untested patch&#8221;.  If there&#8217;s a feature request with no associated milestone, add the label &#8220;Needs milestone&#8221;.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Stretch goal:  Use the labels as a guide to &#8220;clean&#8221; each issue.  Verify bugs, test patches, etc.<ul>
+<li>Task 1:  Verify Bugs<ul>
+<li>Skills/tools needed:  Moderate English language skills, ideally familiarity with virtual machines to test on multiple OSs.</li>
+<li>Estimated time: ~15 minutes set up, ~20 minutes per bug (high variance)</li>
+<li>Get started:  Download the development environment and make sure you can run the project.  Make sure you have an account on &lt;the issue tracker&gt; and are familiar with how to add comments or change labels.</li>
+<li>For each bug:  Try to reproduce the bug.  Record the results in a comment, including your operating system type and version #.  If possible, test on multiple browsers.  If there are recent comments covering all three major OSs, add label to bug “ready_for_maintainer_review”.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<p>No matter what, attendees will need to be matched to a task that fits their skills and interests.  Doing this prep work will let participants get started immediately, instead of making them wait for you to suggest an appropriate task.  Ideally, event organizers will have collected information on participants&#8217; skills and interests ahead of time, so you can tailor the task list to your group of contributors.</p>
+<p>Making the steps of each task explicit also helps participants mentor each other.  By clearly identifying which skills and concepts are needed, you make it easier for individuals to say, &#8220;Oh, I understand how to do that!  Let me show you.&#8221;</p>
+</div>
+</div>
+<div class="section" id="follow-up">
+<h3><a class="toc-backref" href="#id14">Follow-up</a><a class="headerlink" href="#follow-up" title="Permalink to this headline">¶</a></h3>
+<p>Contributors may not be able to finish the tasks they are working on during the event, or they may want to continue participating in the project by working on other tasks.  Thinking ahead about how you will follow up on the event makes it easier to exchange information with participants and plan the direction of your project.</p>
+<p>We recommend asking each participant to answer the following questions about the tasks they worked on.  Giving them this list at the start of the event will help them document what they’re doing as they go along.  You can print out the list, email it to attendees, make a web form - whatever suits you.</p>
+<blockquote>
+<div><ul class="simple">
+<li>For each task you worked on, please answer:<ul>
+<li>What task did you work on?</li>
+<li>Please briefly document your workflow.  What steps did you take, in what order, and why?</li>
+<li>Where can I find the work you did at the event?  This includes code, documentation, mock ups, and other materials.</li>
+<li>If you created any accounts for the project, please list the site and account name.  Make sure to store the password in your favorite password manager, or make sure I (or another maintainer) knows it.</li>
+<li>What obstacles did you encounter when working on this task?  Do you have any feedback for me to make the process better for future contributors?</li>
+<li>Would you like to stay involved in this project?  If so, in what capacity?</li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<p>If there is enthusiasm for continuing the work, make sure you stay in touch!  We suggest gathering emails from interested attendees and contacting them within 48 hours of the event.  In the email, thank them for their help and include information on how to stay part of the community via, for instance, IRC or mailing lists.</p>
+<p>We also recommend planning a follow up meeting at the event.  If you’re all local, try setting a date after the event for you and your team to meet at a local coffee shop, coworking space, or project night.  If you’re remote, set a date to meet on IRC or a google hangout.  2-3 weeks is a good time frame, though it will depend on how busy you and your new contributors are.</p>
+</div>
+<div class="section" id="checklists">
+<h3><a class="toc-backref" href="#id15">Checklists</a><a class="headerlink" href="#checklists" title="Permalink to this headline">¶</a></h3>
+<p>That’s a lot of advice!  To help you keep track of each step, we’ve created two checklists for you.  The detailed version includes all of the advice above.  The quick and dirty checklist includes the elements of the above document which we think are most important.  We recommend starting with the quick and dirty checklist.  Once you&#8217;ve completed that successfully, you can go back and do the extra steps if you have the time and energy.</p>
+<p>To view and/or print the checklists, go <a class="reference external" href="https://github.com/openhatch/in-person-event-handbook/blob/master/checklists.pdf">here</a>.</p>
+</div>
+<div class="section" id="acknowledgements">
+<h3><a class="toc-backref" href="#id16">Acknowledgements</a><a class="headerlink" href="#acknowledgements" title="Permalink to this headline">¶</a></h3>
+<p>Thank you to everyone who has contributed to, or helped inspire, this project.</p>
+<div class="section" id="contributors">
+<h4><a class="toc-backref" href="#id17">Contributors</a><a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Shauna Gordon-McKeon: maintainer, content</li>
+<li>Ni Mu: design</li>
+<li>Sheila Miguez: content feedback</li>
+<li>Asheesh Laroia: content feedback</li>
+</ul>
+</div>
+<div class="section" id="further-resources">
+<h4><a class="toc-backref" href="#id18">Further Resources</a><a class="headerlink" href="#further-resources" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><a class="reference external" href="http://open-advice.org/">Open Advice</a></li>
+<li><a class="reference external" href="http://producingoss.com/en/producingoss.html">Producing Open Source Software</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
